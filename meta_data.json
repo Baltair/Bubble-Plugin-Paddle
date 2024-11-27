@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "payment"
+    },
+    "data_tracked": false,
+    "demo_page": "https://demo-paddle.bubbleapps.io/version-test",
+    "description": "Paddle payment system integration. take away 100% of the pain of payments fragmentation. It’s faster, safer, simpler, and above all, way better.\n\nIf you have specific requests feel free to fill this form : https://joapp.ca/request",
+    "image": "//s3.amazonaws.com/appforest_uf/f1667590596334x560775944513923500/paddle_logo.png",
+    "license": "open_source",
+    "link": "https://www.paddle.com/",
+    "name": "Paddle",
+    "plugin_instructions": "1. Register a Paddle Sandbox Account for testing. (https://sandbox-vendors.paddle.com)\n\n2. Go to Paddle -> Developer Tools -> Authentication then Generate a \"Client-side tokens\"\n\n3. Go to your Bubble Plugin Page and insert the \"Client-side tokens\" where requested\n\n4. Place your Paddle element and you're ready to go!\n",
+    "sa_node_version": 18
+}

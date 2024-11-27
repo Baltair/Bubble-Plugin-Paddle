@@ -1,0 +1,113 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "input forms",
+    "default_dim": {
+        "height": 200,
+        "width": 200
+    },
+    "display": "Paddle",
+    "events": {
+        "ABr": {
+            "caption": "Checkout is complete",
+            "name": "checkout_complete"
+        },
+        "ABs": {
+            "caption": "Checkout is close",
+            "name": "checkout_close"
+        },
+        "ACU": {
+            "caption": "Checkout had Error",
+            "name": "checkout_error"
+        },
+        "ACV": {
+            "caption": "Checkout is Loaded",
+            "name": "checkout_load"
+        }
+    },
+    "fields": {
+        "ABt": {
+            "caption": "Paddle Deployment",
+            "default_val": "Sandbox",
+            "doc": "The Sandbox Mode let you test in a secure environment. It does not use real payment. (You need a Paddle sandbox account to use it)",
+            "editor": "Dropdown",
+            "name": "mode",
+            "options": "Sandbox,Live",
+            "rank": 0
+        },
+        "ABu": {
+            "caption": "Display Theme",
+            "default_val": "light",
+            "doc": "Theme used to display the Checkout elements",
+            "editor": "Dropdown",
+            "name": "display_theme",
+            "options": "dark,light",
+            "rank": 1
+        },
+        "ABv": {
+            "caption": "Display Mode",
+            "default_val": "overlay",
+            "doc": "How to present the form. Overlay is like a Popup, Inline is within the Element.",
+            "editor": "Dropdown",
+            "name": "display_method",
+            "options": "inline,overlay",
+            "rank": 2
+        },
+        "ABx": {
+            "caption": "Disable Logout",
+            "default_val": false,
+            "doc": "If yes, the user will not have the option to change its email address.",
+            "editor": "DynamicValue",
+            "name": "disable_logout",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "ABy": {
+            "caption": "Prefill Email",
+            "doc": "Enter an email address to skip the first section of the Checkout",
+            "editor": "DynamicValue",
+            "name": "prefill_email",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "ABz": {
+            "caption": "Language",
+            "default_val": "",
+            "doc": "Paddle Language code, example : French = fr , english = en , ...(please look at Paddle documentation)",
+            "editor": "DynamicValue",
+            "name": "locale",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "ACR": {
+            "caption": "Enable Tax ID",
+            "default_val": true,
+            "doc": "Whether the option to add a tax number is displayed at checkout",
+            "editor": "DynamicValue",
+            "name": "showaddtaxid",
+            "rank": 6,
+            "value": "boolean"
+        },
+        "ACS": {
+            "caption": "Enable Discounts",
+            "default_val": true,
+            "doc": "Whether the option to add a discount is displayed at checkout.",
+            "editor": "DynamicValue",
+            "name": "showadddiscounts",
+            "rank": 7,
+            "value": "boolean"
+        }
+    },
+    "icon": "ion-cash",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    }
+}

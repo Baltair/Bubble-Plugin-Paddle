@@ -1,0 +1,19 @@
+{
+    "assets": {
+        "ABw": {
+            "name": "PaddleLogo",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1667704477537x776092836123525800/paddle_logo.png"
+        }
+    },
+    "dependencies": {
+        "alpha_opt_in": false,
+        "plugin_api_version": "4",
+        "use_jquery": false
+    },
+    "shared_keys": {
+        "ACM": {
+            "caption": "Client-side Token",
+            "type": "client_safe"
+        }
+    }
+}

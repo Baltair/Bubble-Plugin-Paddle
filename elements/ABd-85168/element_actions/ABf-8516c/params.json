@@ -1,0 +1,14 @@
+{
+    "caption": "Launch Checkout",
+    "doc": "Trigger the action to show the Checkout",
+    "fields": {
+        "ACA": {
+            "caption": "items test",
+            "doc": "List of Prices and Quantity. Where the left key is the price ID and right value is the Quantity.",
+            "editor": "key_value_list",
+            "name": "items",
+            "rank": 0,
+            "value": "number"
+        }
+    }
+}
